@@ -1,0 +1,17 @@
+.sidebar {
+  height: calc(100vh - 5rem);
+  width: 20%;
+  background: var(--clr-primary);
+  overflow-y: hidden;
+  /* padding: 0.5rem; */
+}
+.logo {
+  background: var(--clr-primary-2);
+  height: 5rem;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.logo p {
+  font-size: 1.6rem;
+}

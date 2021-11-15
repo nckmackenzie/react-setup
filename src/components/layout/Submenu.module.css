@@ -1,0 +1,33 @@
+.subMenu {
+  position: absolute;
+  right: 10px;
+  top: 52px;
+  box-shadow: var(--box-shadow);
+  width: 250px;
+  border: 1px solid var(--clr-gray-1);
+  /* padding: 1rem; */
+  border-radius: var(--border-radius-sm);
+}
+.userName {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.icon {
+  font-size: 2rem !important;
+}
+.divider {
+  border: 0.5px solid var(--clr-secondary-1);
+}
+.submenuItem {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem !important;
+  gap: 1rem;
+  color: var(--clr-black);
+}
+.submenuItem:hover {
+  background: var(--clr-secondary-1);
+}

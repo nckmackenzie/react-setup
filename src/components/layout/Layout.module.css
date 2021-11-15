@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+}
+.wrapper-content {
+  width: 80%;
+  padding: 2rem;
+}
+/* main {
+  min-height: calc(100% - 5rem);
+} */

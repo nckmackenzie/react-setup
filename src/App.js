@@ -1,7 +1,14 @@
+import Layout from './components/layout/Layout';
+import UserList from './components/users/UserList';
+
 import './App.css';
 
 function App() {
-  return <div className="App">Hello world</div>;
+  return (
+    <Layout>
+      <UserList />
+    </Layout>
+  );
 }
 
 export default App;

@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+  border-bottom: 1px solid var(--clr-secondary-1);
+}
+.avator {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-secondary-1);
+  padding: 0.5rem;
+  color: var(--clr-secondary-1);
+}
+.user h3 {
+  color: var(--clr-secondary-1);
+  font-size: 1.6rem;
+}
